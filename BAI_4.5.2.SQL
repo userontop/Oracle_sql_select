@@ -1,0 +1,3 @@
+SELECT RPAD(LAST_NAME, 8, '*') || ' ' || LPAD(JOB_ID, 10, '*')
+FROM EMPLOYEES
+/
